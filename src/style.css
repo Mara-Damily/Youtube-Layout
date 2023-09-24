@@ -1,0 +1,82 @@
+.youtubelayout{
+    max-width: 900px;
+    display: grid;
+    background: #F7F7F7;
+    grid-template-areas: "playing advertise"
+                        "playing recomendations";
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+    padding: 35px;
+    gap: 5px;
+}
+
+.playing{
+    grid-area: playing;
+}
+
+.advertise{
+    grid-area: advertise;  
+}
+.recomendations{
+    grid-area: recomendations;
+    margin-top: 10px;
+}
+
+.playing .thumbnailbig{
+    width: 543px;
+    height: 217px;
+    margin-bottom: 12px;
+}
+
+.description-playing{
+    font-family: 'Roboto', sans-serif; 
+    width: 523px;
+}
+.description-playing h1{ 
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000; 
+    margin-bottom: 7px;
+}
+
+.description-playing p.playing-views {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+    margin-bottom: 7px;
+}
+.description-playing p{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.advertise img{
+    width: 270px;
+}
+
+.recomendations img{
+    width: 101px;
+    height: 71px;
+}
+.recomendations .video{
+    display: flex;
+    margin-bottom: 10px;
+}
+.recomendations .description{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    margin-left: 5px;
+
+}
+
+.description h1{
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.description p{
+    margin-bottom: 5px;
+}
